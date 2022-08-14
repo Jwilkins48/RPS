@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- <a href="https://www.flaticon.com/free-icons/rock" title="rock icons">Rock icons created by Freepik - Flaticon</a> -->
+    <!-- <a href="https://www.flaticon.com/free-icons/paper" title="paper icons">Paper icons created by Freepik - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/scissors" title="scissors icons">Scissors icons created by Freepik - Flaticon</a> -->
+    <!-- <a href="https://www.flaticon.com/free-icons/fist" title="fist icons">Fist icons created by juicy_fish - Flaticon</a> -->
+    <h2 class="instructionHeader">Reach 5 points to win!</h2>
+
+    <div class="contentContainer">
+        <div class="playerContent">
+            <div class="playerSideContainer">
+                <h3>Player</h3>
+                <div id="playerScoreDisplay"> </div>
+                <img class="startingFist player" height="100px" width="100px" src="images/fighting-game.png"
+                    alt="beginning game fist">
+                <div class="starIconContainer">
+
+                </div>
+            </div>
+
+            <div class="opponentSideContainer">
+                <h3>Opponent</h3>
+                <div id="oppScoreDisplay"> </div>
+                <img class="startingFist opponent" height="100px" width="100px" src="images/fighting-game.png"
+                    alt="beginning game fist">
+                <div class="oppStarIconContainer">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="btnContainer">
+            <button name="rock" class="rockBtn btn"><img id="rockImg" width="100px" height="100px"
+                    src="images/rocks.png" alt="rock"></button>
+            <button name="paper" class="paperBtn btn"><img width="100px" height="100px" src="images/paper.png"
+                    alt="paper"></button>
+            <button name="scissors" class="scissorsBtn btn"><img width="100px" height="100px" src="images/scissors.png"
+                    alt="scissors"></button>
+        </div>
+
+        <div id="resultDisplay">Click any button to start</div>
+
+    </div>
+
+</body>
+
+</html>
